@@ -5,3 +5,9 @@ ElasticSearch,Logstash,Kibana(AWS service) has to be integrated with Database(ei
 Maintaining the complete Infra in private mode by enabling https protocol.
 Creating VPN gateway inorder to ensure Product is inaccessible to the outside Network
 Injection of  sql data on regular basis using Lambda(AWS service)
+
+
+##create eks cluster using command
+  eks create cluster --name demo-cluster --region us-east-1 --fargate
+
+Identity provider will be attached to theIdentity broker
