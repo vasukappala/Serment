@@ -8,6 +8,6 @@ Injection of  sql data on regular basis using Lambda(AWS service)
 
 
 ##create eks cluster using command
-  eks create cluster --name demo-cluster --region us-east-1 --fargate
+  eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 
 Identity provider will be attached to theIdentity broker
